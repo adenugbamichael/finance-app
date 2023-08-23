@@ -5,7 +5,7 @@ A MERN Finance Dashboard App that has Machine Learning Predictions. The frontend
 - Initialize project and install required packages
 - Setup layout
 - Create dashboard page
-- Install redux toolkit to make api calls and that data can be store in the global storage
+- Install redux toolkit to make api calls so that data can be retrieve from the global storage
 - Setup backend server
 - Having the model schema setup
 - Create database Url for connection
