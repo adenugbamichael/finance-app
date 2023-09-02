@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import BoxHeader from "@/components/BoxHeader"
 import DashboardBox from "@/components/DashboardBox"
 import FlexBetween from "@/components/FlexBetween"

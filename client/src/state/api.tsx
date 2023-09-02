@@ -19,7 +19,7 @@ export const api = createApi({
       providesTags: ["Products"],
     }),
     getTransactions: build.query<Array<GetTransactionsResponse>, void>({
-      query: () => "transaction/Transactions/",
+      query: () => "transaction/transactions/",
       providesTags: ["Transactions"],
     }),
   }),

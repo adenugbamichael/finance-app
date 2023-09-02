@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/ban-types */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import BoxHeader from "@/components/BoxHeader"
 import DashboardBox from "@/components/DashboardBox"
 import { useGetKpisQuery } from "@/state/api"
@@ -7,17 +5,17 @@ import { useTheme } from "@mui/material"
 import { useMemo } from "react"
 import {
   ResponsiveContainer,
-  AreaChart,
   CartesianGrid,
-  XAxis,
-  YAxis,
-  Tooltip,
+  AreaChart,
   BarChart,
   Bar,
-  Area,
-  Line,
   LineChart,
+  XAxis,
+  YAxis,
   Legend,
+  Line,
+  Tooltip,
+  Area,
 } from "recharts"
 
 const Row1 = () => {
@@ -56,7 +54,7 @@ const Row1 = () => {
         return {
           name: month.substring(0, 3),
           revenue: revenue,
-          profit: revenue - expenses,
+          profit: (revenue - expenses).toFixed(2),
         }
       })
     )
@@ -64,7 +62,6 @@ const Row1 = () => {
 
   return (
     <>
-      {/* dashboard 1 */}
       <DashboardBox gridArea='a'>
         <BoxHeader
           title='Revenue and Expenses'
@@ -140,7 +137,6 @@ const Row1 = () => {
           </AreaChart>
         </ResponsiveContainer>
       </DashboardBox>
-      {/* dashboard 2 */}
       <DashboardBox gridArea='b'>
         <BoxHeader
           title='Profit and Revenue'
@@ -200,7 +196,6 @@ const Row1 = () => {
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox>
-      {/* dashboard 3 */}
       <DashboardBox gridArea='c'>
         <BoxHeader
           title='Revenue Month by Month'
