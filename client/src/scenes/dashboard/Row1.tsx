@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/ban-types */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useTheme } from "@mui/material"
-import DashboardBox from "@/components/dashboardBox"
+
 import { useGetKpisQuery } from "@/state/api"
 import { useMemo } from "react"
 import {
@@ -19,6 +19,7 @@ import {
   Legend,
 } from "recharts"
 import BoxHeader from "@/components/BoxHeader"
+import DashboardBox from "@/components/DashboardBox"
 
 const Row1 = () => {
   const { palette } = useTheme()
