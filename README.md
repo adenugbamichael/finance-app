@@ -11,3 +11,4 @@ A MERN Finance Dashboard App that has Machine Learning Predictions. The frontend
 - Create database Url for connection
 - Fetch kpis, products and transactions from the backend
 - Sync backend data with UI
+- Deploy backend to render and frontend to vercel
