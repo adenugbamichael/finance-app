@@ -4,6 +4,8 @@ A MERN Finance Dashboard App that has Machine Learning Predictions. The frontend
 
 ![chrome-capture-2023-8-2](https://github.com/adenugbamichael/finance-app/assets/57706905/9d9f1247-f93f-4216-8959-6fe3d8dca602)
 
+![chrome-capture-2023-8-2 (1)](https://github.com/adenugbamichael/finance-app/assets/57706905/08d5ebb2-280a-452e-a270-fd5180dc0731)
+
 - Initialize project and install required packages
 - Setup layout
 - Create dashboard page
