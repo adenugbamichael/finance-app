@@ -2,11 +2,11 @@
 import { Palette, PaletteColor } from "@mui/material/styles/createPalette"
 
 declare module "@mui/material/styles/createPalette" {
-  interface PaletteColor {
+  export interface PaletteColor {
     [key: number]: string
   }
 
-  interface Palette {
+  export interface Palette {
     tertiary: PaletteColor
   }
 }
