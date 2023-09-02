@@ -1,8 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-types */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { useTheme } from "@mui/material"
-
+import BoxHeader from "@/components/BoxHeader"
+import DashboardBox from "@/components/DashboardBox"
 import { useGetKpisQuery } from "@/state/api"
+import { useTheme } from "@mui/material"
 import { useMemo } from "react"
 import {
   ResponsiveContainer,
@@ -18,8 +19,6 @@ import {
   LineChart,
   Legend,
 } from "recharts"
-import BoxHeader from "@/components/BoxHeader"
-import DashboardBox from "@/components/DashboardBox"
 
 const Row1 = () => {
   const { palette } = useTheme()
